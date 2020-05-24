@@ -32,7 +32,7 @@
                                     <RowDefinition Height="63*"/>
                                     <RowDefinition Height="61*"/>
                                 </Grid.RowDefinitions>
-                                <DockPanel HorizontalAlignment="Stretch" Margin="15,260,0,0" MaxWidth="1920" Grid.Row="1" Grid.RowSpan="2">
+                                <DockPanel HorizontalAlignment="Stretch" Margin="15,260,0,0" Grid.Row="1" Grid.RowSpan="2">
                                     <StackPanel VerticalAlignment="Bottom" DockPanel.Dock="Left">
                                         <DockPanel>
                                             <Canvas>
@@ -77,7 +77,7 @@
                                         </Grid>
                                     </StackPanel>
                                 </DockPanel>
-                                <DockPanel HorizontalAlignment="Stretch" MaxWidth="1920" Grid.Row="3" Grid.RowSpan="2" Width="Auto">
+                                <DockPanel HorizontalAlignment="Stretch" Grid.Row="3" Grid.RowSpan="2" Width="Auto">
                                     <StackPanel DockPanel.Dock="Left" Margin="15,0,0,0">
                                         <Grid Background="#34000000">
                                             <Grid.ColumnDefinitions>
@@ -171,7 +171,7 @@
                                                 </ItemsControl.ItemContainerStyle>
                                             </ItemsControl>
                                         </Grid>
-                                        <HtmlTextView x:Name="PART_HtmlDescription" Margin="0,0,0,0" HtmlFontSize="{DynamicResource FontSize}" HtmlFontFamily="{DynamicResource FontFamily}" HtmlForeground="#898989" LinkForeground="{DynamicResource GlyphColor}"
+                                        <HtmlTextView x:Name="PART_HtmlDescription" HtmlFontSize="{DynamicResource FontSize}" HtmlFontFamily="{DynamicResource FontFamily}" HtmlForeground="#898989" LinkForeground="{DynamicResource GlyphColor}"
                                                       Height="540"/>
                                     </StackPanel>
                                 </DockPanel>
